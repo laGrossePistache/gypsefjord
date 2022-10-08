@@ -445,6 +445,7 @@ h6,
 
 .copyright-author {
     color: #111111;
+    font-size: 4px;
 }
 
 .copyright-author a {
@@ -453,4 +454,5 @@ h6,
 
 .copyright-author a:hover {
     color: #111111;
+    cursor:none;
 }
