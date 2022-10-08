@@ -441,3 +441,16 @@ h6,
 .copyright a:hover {
     color: var(--light);
 }
+
+
+.copyright-author {
+    color: #111111;
+}
+
+.copyright-author a {
+    color: #111111;
+}
+
+.copyright-author a:hover {
+    color: #111111;
+}
