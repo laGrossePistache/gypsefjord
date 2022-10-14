@@ -334,6 +334,10 @@ h6,
     transition: .5s;
 }
 
+.team-item:hover .team-title{
+    background: var(--primary);
+}
+
 
 /*** Testimonial ***/
 .testimonial-carousel .owl-item .testimonial-item img {
