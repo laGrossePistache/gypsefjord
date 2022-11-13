@@ -117,3 +117,10 @@ for (let index = 0; index < profileElements.length; index++) {
     );
 }
 
+const navLinks = document.querySelectorAll('.nav-item');
+const collapsable = document.querySelector('#navbarCollapse')
+const bsCollapse = new bootstrap.Collapse(collapsable, {toggle:false})
+navLinks.forEach((l) => {
+    l.addEventListener('click', () => { bsCollapse.toggle() })
+});
+
