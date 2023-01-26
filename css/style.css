@@ -266,7 +266,7 @@ h6,
     left: 20%;
     background: var(--primary);
     border: 25px solid var(--light);
-    border-radius: 6px;
+    border-radius: 50%;
     z-index: -1;
 }
 
