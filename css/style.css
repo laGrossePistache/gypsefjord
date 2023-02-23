@@ -468,3 +468,7 @@ h6,
     color: #111111;
     cursor:none;
 }
+
+h1, h5{
+    font-family: 'Oswald', sans-serif;
+}
