@@ -248,7 +248,8 @@
         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
           <div class="row position-relative h-100">
             <div class="col-12 align-self-center">
-              <img class="img-fluid shadow-lg rounded" src="img\story.jpg" alt="Photo sur l'idéalogie de gypse du fjord" />
+              <img class="img-fluid shadow-lg rounded" src="img\story.jpg"
+                alt="Photo sur l'idéalogie de gypse du fjord" />
             </div>
           </div>
         </div>
@@ -374,11 +375,11 @@
           <div class="product-item d-flex flex-column bg-light rounded overflow-hidden h-100">
             <div class="text-center p-4">
               <h3 class="mb-3">Litière</h4>
-              <span>Le pouvoir absorbant de la granule de gypse permet de réduire le taux d’humidité de la litière
-                animale
-                et sa composition chimique aide à réduire l’émanation d’ammoniac. Il s’agit d’un amendement très
-                économique et comportant de nombreux bénéfices à la litière traditionnellement utilisée. Disponible en
-                format de 15kg et en vrac.</span>
+                <span>Le pouvoir absorbant de la granule de gypse permet de réduire le taux d’humidité de la litière
+                  animale
+                  et sa composition chimique aide à réduire l’émanation d’ammoniac. Il s’agit d’un amendement très
+                  économique et comportant de nombreux bénéfices à la litière traditionnellement utilisée. Disponible en
+                  format de 15kg et en vrac.</span>
             </div>
             <div class="position-relative mt-auto">
               <img class="img-fluid" src="img/product-3.jpg" alt="Granule de gypse efficace et écoresponsable " />
@@ -425,26 +426,49 @@
           <h4 class="text-light mb-4">Galerie de photos</h4>
           <div class="row g-1">
             <div class="col-5">
-              <a href="/img/gallerie-01.jpg" target="_blank">
-                <img class="img-fluid bg-light rounded p-1" src="img/gallerie-01-min.jpg" alt="Service de livrasion" /></a>
+              <div type="button" data-bs-toggle="modal" data-bs-target="#picture-modal"
+                data-bs-whatever="img/gallerie-01.jpg">
+                <img class="img-fluid bg-light rounded p-1" src="img/gallerie-01-min.jpg" alt="Service de livrasion" />
+              </div>
             </div>
             <div class="col-5">
-              <a href="/img/gallerie-02.jpg" target="_blank">
-                <img class="img-fluid bg-light rounded p-1" src="img/gallerie-02-min.jpg" alt="Un fait sur le taux d'humidité et la prolifération des bactéries" /></a>
+              <div type="button" data-bs-toggle="modal" data-bs-target="#picture-modal"
+                data-bs-whatever="img/gallerie-02.jpg">
+                <img class="img-fluid bg-light rounded p-1" src="img/gallerie-02-min.jpg"
+                  alt="Un fait sur le taux d'humidité et la prolifération des bactéries" />
+              </div>
             </div>
             <div class="col-5">
-              <a href="/img/gallerie-03.jpg" target="_blank">
-                <img class="img-fluid bg-light rounded p-1" src="img/gallerie-03-min.jpg" alt="Fait sur l'agriculture et le gypse" /></a>
+              <div type="button" data-bs-toggle="modal" data-bs-target="#picture-modal"
+                data-bs-whatever="img/gallerie-03.jpg">
+                <img class="img-fluid bg-light rounded p-1" src="img/gallerie-03-min.jpg"
+                  alt="Fait sur l'agriculture et le gypse" />
+              </div>
             </div>
             <div class="col-5">
-              <a href="/img/gallerie-04.jpg" target="_blank">
-                <img class="img-fluid bg-light rounded p-1" src="img/gallerie-04-min.jpg" alt="Autre fait du gypse et ses bien faits surl'environnement" /></a>
+              <div type="button" data-bs-toggle="modal" data-bs-target="#picture-modal"
+                data-bs-whatever="img/gallerie-04.jpg">
+                <img class="img-fluid bg-light rounded p-1" src="img/gallerie-04-min.jpg"
+                  alt="Autre fait du gypse et ses bien faits surl'environnement" />
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <!-- Picture Modal -->
+  <div class="modal fade" id="picture-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered"">
+      <div class=" modal-content">
+      <div class="modal-body">
+        <img class="img-fluid bg-light rounded p-1" src="" alt="Service de livrasion" />
+      </div>
+    </div>
+  </div>
+  </div>
+
   <!-- Footer End -->
 
   <!-- Copyright Start -->
